@@ -1,0 +1,31 @@
+/* navigation.css */
+.navigation {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 18px;
+}
+
+.navigation a:hover {
+  color: #007bff;
+}
